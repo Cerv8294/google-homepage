@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0 auto;
+  font-size: 15px;
+}
+
+a {
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.54);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(0, 0, 0, 0.54);
+  text-decoration: underline;
+}
+
+
+.navBar {
+  position: relative;
+  top: 20px;
+  height: 50px;
+  margin: 0 10px;
+  min-width: 600px;
+}
+
+.navBar .topbar .tn {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  top: 10px;
+  padding: 0 10px;
+  color: rgba(0, 0, 0, 0.54);
+  margin: 0 auto;
+  text-align: center;
+  height: 60%;
+  font-size: 15px;
+}
+
+.navBar .tl {
+  position: relative;
+  float: left;
+  text-align: center;
+  width: 150px;
+  margin: 0 auto;
+  height: 50px;
+  font-size: 0;
+}
+
+.navBar .tr {
+  position: relative;
+  float: right;
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+  height: 50px;
+  font-size: 0;
+}
+
+#apps {
+  background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+  background-position: -137px -40px;
+  text-align: center;
+  margin: 0 10px;
+}
+
+
+#user {
+  border: 1px solid #4285f4;
+  background-color: #4387fd;
+  color: #FFF;
+  padding: 0 10px;
+  border-radius: 3px;
+  margin: 0 10px;
+}
+
+/* Mid Section */
+
+#main_content {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: 90%;
+  min-width: 500px;
+  min-height: 600px;
+}
+
+#logo {
+  margin: 0 auto;
+  padding: 150px 250px 40px 250px;
+
+}
+
+.sbar {
+  margin: auto;
+  height: 50px;
+  border: 1px solid #e4e4e4;
+  box-shadow: 0 1px 3px -1px #000;
+  min-width: 200px;
+  max-width: 600px;
+
+}
+
+#srh {
+  width: 90%;
+  margin: 0 10px;
+  height: 45px;
+  border: none;
+}
+
+#srchb {
+  margin: 50px auto;
+  text-align: center;
+  width: 600px;
+}
+
+.gsrc, .gluck {
+  display: inline-block;
+  border: 1px solid #e4e4e4;
+  padding: 10px;
+  margin: 0 20px;
+
+}
+
+/*  Footer Section  */
+
+.foot div a {
+  padding: 10px;
+  font-size: 15px;
+  vertical-align: middle;
+}
+
+.foot {
+  margin: 0 auto;
+  position: relative;
+  bottom: 0;
+  border-top: 1px solid #e4e4e4;
+  color: rgba(0, 0, 0, 0.54);
+  width: 100%;
+  height: 5%;
+
+  min-width: 600px;
+}
+
+.footL, .footR {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  margin: 0 auto;
+  font-size: 0;
+}
+
+.footL {
+  text-align: center;
+  float: left;
+}
+
+.footR {
+  float: right;
+}
+
+#gl {
+  display: block;
+  margin: 0 auto;
+
+}
