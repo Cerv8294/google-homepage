@@ -8,27 +8,51 @@ html, body {
   font-size: 15px;
 }
 
-a {
-  display: inline-block;
-  color: rgba(0, 0, 0, 0.54);
-  text-decoration: none;
-}
-
-a:hover {
-  color: rgba(0, 0, 0, 0.54);
-  text-decoration: underline;
-}
-
-
 .navBar {
   position: relative;
-  top: 20px;
+  top: 10px;
   height: 50px;
   margin: 0 10px;
   min-width: 600px;
 }
 
-.navBar .topbar .tn {
+.topbar {
+  list-style-type: none;
+  height: 100%;
+  padding: 5px 0;
+  margin: 0;
+  vertical-align: middle;
+}
+
+li {
+  display: inline-block;
+  height: 40px;
+}
+
+.tl {
+  float: left;
+}
+
+.tr {
+  float: right;
+}
+
+.tn {
+  display: inline-block;
+  padding: 5px;
+  height: 30px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.54);
+  text-decoration: none;
+}
+
+.tn:hover {
+  color: rgba(0, 0, 0, 0.54);
+  text-decoration: underline;
+}
+
+
+/*.navBar .topbar .tn {
   display: inline-block;
   position: relative;
   vertical-align: middle;
@@ -59,13 +83,15 @@ a:hover {
   margin: 0 auto;
   height: 50px;
   font-size: 0;
-}
+} */
 
 #apps {
   background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
-  background-position: -137px -40px;
+  background-position: -137px -38px;
   text-align: center;
   margin: 0 10px;
+  width: 28px;
+  height: 28px;
 }
 
 
@@ -73,9 +99,8 @@ a:hover {
   border: 1px solid #4285f4;
   background-color: #4387fd;
   color: #FFF;
-  padding: 0 10px;
   border-radius: 3px;
-  margin: 0 10px;
+  height: 35px;
 }
 
 /* Mid Section */
@@ -92,6 +117,7 @@ a:hover {
 #logo {
   margin: 0 auto;
   padding: 150px 250px 40px 250px;
+  min-width: 200px;
 
 }
 
