@@ -40,50 +40,17 @@ li {
 .tn {
   display: inline-block;
   padding: 5px;
+  margin: 0 5px;
   height: 30px;
   text-align: center;
-  color: rgba(0, 0, 0, 0.54);
   text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .tn:hover {
-  color: rgba(0, 0, 0, 0.54);
+  color: rgba(0, 0, 0, 0.8);
   text-decoration: underline;
 }
-
-
-/*.navBar .topbar .tn {
-  display: inline-block;
-  position: relative;
-  vertical-align: middle;
-  top: 10px;
-  padding: 0 10px;
-  color: rgba(0, 0, 0, 0.54);
-  margin: 0 auto;
-  text-align: center;
-  height: 60%;
-  font-size: 15px;
-}
-
-.navBar .tl {
-  position: relative;
-  float: left;
-  text-align: center;
-  width: 150px;
-  margin: 0 auto;
-  height: 50px;
-  font-size: 0;
-}
-
-.navBar .tr {
-  position: relative;
-  float: right;
-  text-align: center;
-  width: 300px;
-  margin: 0 auto;
-  height: 50px;
-  font-size: 0;
-} */
 
 #apps {
   background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
@@ -93,7 +60,6 @@ li {
   width: 28px;
   height: 28px;
 }
-
 
 #user {
   border: 1px solid #4285f4;
@@ -108,16 +74,17 @@ li {
 #main_content {
   position: relative;
   margin: 0 auto;
-  width: 100%;
+  top: 10px;
+  width: 1000px;
   height: 90%;
-  min-width: 500px;
+  min-width: 200px;
   min-height: 600px;
 }
 
 #logo {
   margin: 0 auto;
   padding: 150px 250px 40px 250px;
-  min-width: 200px;
+  min-width: 100px;
 
 }
 
@@ -127,7 +94,7 @@ li {
   border: 1px solid #e4e4e4;
   box-shadow: 0 1px 3px -1px #000;
   min-width: 200px;
-  max-width: 600px;
+  width: 600px;
 
 }
 
@@ -142,29 +109,32 @@ li {
   margin: 50px auto;
   text-align: center;
   width: 600px;
+  font-size: 0;
 }
 
 .gsrc, .gluck {
   display: inline-block;
-  border: 1px solid #e4e4e4;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
   padding: 10px;
   margin: 0 20px;
+  border-radius: 2px;
+}
 
+.gin {
+  margin: 0;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
 }
 
 /*  Footer Section  */
-
-.foot div a {
-  padding: 10px;
-  font-size: 15px;
-  vertical-align: middle;
-}
 
 .foot {
   margin: 0 auto;
   position: relative;
   bottom: 0;
-  border-top: 1px solid #e4e4e4;
+  border-top: 1px solid #f2f2f2;
+  background-color: #f2f2f2;
   color: rgba(0, 0, 0, 0.54);
   width: 100%;
   height: 5%;
@@ -172,12 +142,11 @@ li {
   min-width: 600px;
 }
 
-.footL, .footR {
-  display: inline-block;
-  position: relative;
-  vertical-align: middle;
-  margin: 0 auto;
-  font-size: 0;
+#flist {
+  list-style-type: none;
+  height: 100%;
+  padding: 10px 0;
+  margin: 0;
 }
 
 .footL {
@@ -187,6 +156,20 @@ li {
 
 .footR {
   float: right;
+  text-align: center;
+}
+
+.flink {
+  display: inline-block;
+  padding: 0 10px;
+  height: 30px;
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+}
+
+.flink:hover {
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: underline;
 }
 
 #gl {
